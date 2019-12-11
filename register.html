@@ -1,0 +1,31 @@
+<!DOCTYPE html>         
+<html>
+<head>                 		
+	<meta charset="utf-8">	
+	<title>用户注册</title> 
+</head>
+
+<body style="background-color: #F5DEB3;">				
+	<h3>
+		请完善下面注册表信息完成注册！<br />
+	</h3>
+	<form action="demo.php" method="get">
+  		<fieldset style="width: 75%">
+    		<legend>个人信息</legend>
+    		<strong>姓名：</strong><input type="text" name="usrname"><br />
+    		<strong>性别：</strong>
+    			<select>
+    					<option value="Male">男</option>
+    					<option value="Female">女</option>
+    			</select><br />
+    		<strong>地址：</strong><input type="text" name="address"><br />
+    		<strong>电话：</strong><input type="tel" name="usrtel"><br>
+    		<strong>上传头像：</strong><input type="file" name="pic" accept="image/*"><br />
+    		<strong>电子邮件：</strong><input type="text" name="email"><br />
+    		<strong>邮政编码：</strong><input type="text" name="postcode"><br />
+    		<strong>个人爱好：</strong><input type="text" name="hobbies"><br />
+    		<input type="submit" name="personal information"><br />
+  		</fieldset>
+	</form>
+</body>
+</html>
